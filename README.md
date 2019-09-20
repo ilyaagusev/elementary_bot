@@ -1,4 +1,6 @@
 <h1>Элементарный телеграм бот.</h1>
+[![Build Status](https://travis-ci.org/ilyaagusev/elementary_bot.svg?branch=master)](https://travis-ci.org/ilyaagusev/elementary_bot)
+
 Настоящий телеграм бот написан для обучения программированию на языке Python и имеет адрес @pre_elementary_bot
 
 <h2>Установка</h2>
@@ -11,7 +13,7 @@ handlers.py     | Функции обработки событий
 README.md       | Данный файл
 settings.py     | Настройки прокси и ключ к боту
 starter.py      | Функция обработки команды Start
-reauirements.txt| Файл с зависимостями
+requirements.txt| Файл с зависимостями
 
 В файле `settings.py` необходимо передать в словарь PROXY адрес прокси, логин и пароль, в переменную API_KEY ключ к боту.
 
