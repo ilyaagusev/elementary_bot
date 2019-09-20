@@ -1,6 +1,12 @@
 import logging
 
 
+def start_button(bot, update):
+    text = 'Вызван /start'
+    logging.info(text)
+    update.message.reply_text(text)
+
+
 def talk_to_me(bot, update):
     user_text = 'Привет {0}! Ты написал: {1}'.format(
         update.message.chat.first_name, update.message.text,)
